@@ -88,8 +88,9 @@ export default function LoginPage() {
 
   return (
     <div style={containerStyle}>
+      <div id="amazon-root" />
       <Script
-        src="https://assets.loginwithamazon.com/sdk/vs/api.js"
+        src="https://assets.loginwithamazon.com/sdk/na/login1.js"
         id="amazon-login-sdk"
         strategy="afterInteractive"
       />
